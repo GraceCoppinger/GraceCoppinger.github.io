@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 175px;
 }
 #header .profile h1 {
   font-size: 24px;
@@ -315,6 +315,36 @@ section {
   line-height: 0;
 }
 .about .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Research
+--------------------------------------------------------------*/
+.research .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+.research .content ul {
+  list-style: none;
+  padding: 0;
+}
+.research .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.research .content ul strong {
+  margin-right: 10px;
+}
+.research .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+.research .content p:last-child {
   margin-bottom: 0;
 }
 
